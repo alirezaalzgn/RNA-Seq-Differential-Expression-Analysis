@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# R session files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Raw and generated input data
+Data/Raw/
+Data/Processed/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+# Large R analysis objects
+Results/DESeq2/*.rds
+Results/Enrichment/*.rds
+
+# R session and temporary files
+.RData
+.Rhistory
+.Rproj.user/
